@@ -7,14 +7,19 @@ This project predicts house prices in Melbourne using Machine Learning. The mode
 
 ## How to Use This Project
 ### Clone the Repository
+
+```sh
 CopyEdit
-git clone https://github.com/anjumshaik7/ml-model-houseprice-soulai.git 
+git clone https://github.com/anjumshaik7/ml-model-houseprice-soulai.git
+```
 
 cd ml-model-houseprice-soulai
 
 ### Install Required Packages
+```sh
 CopyEdit
 pip install -r requirements.txt
+```
 
 Run the Jupyter Notebook (.ipynb)
 
@@ -75,7 +80,7 @@ Random Forest R2 Score: 0.8091180324689073<br>
 RMSE : 275356.06401834794
 
 
-##NOTE: For detailed summary of model building. Kindly check  "House_Price_Prediction.ipynb" file.
+## NOTE: For detailed summary of model building Kindly check  "House_Price_Prediction.ipynb" file.
 
 ## Below are the images demonstrating the project execution using FastAPI 
 
