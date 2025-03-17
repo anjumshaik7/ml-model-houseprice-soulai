@@ -68,16 +68,11 @@ curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -
 }
 
 ## Model Performance
-Metric	Score
-R² Score	(update with actual value)
-MAE	(update with actual value)
-MSE	(update with actual value)
+### Metric	Score
 
-### Contributor: Anjum Shaik 
-
-### Random Forest MAE: 165811.84223157307
-### Random Forest R2 Score: 0.8091180324689073
-### RMSE : 275356.06401834794
+Random Forest MAE: 165811.84223157307
+Random Forest R2 Score: 0.8091180324689073
+RMSE : 275356.06401834794
 
 ## Below are the images demonstrating the project execution using FastAPI 
 
