@@ -1,32 +1,32 @@
 # ml-model-houseprice-soulai
 This repository delivers an end-to-end ML solution for predicting house prices using the Melbourne City Housing dataset. It covers data processing, feature engineering, hyperparameter tuning, and model training, with deployment via FastAPI for real-time predictions.
 
-##Melbourne House Price Prediction
-###Overview
+## Melbourne House Price Prediction
+### Overview
 This project predicts house prices in Melbourne using Machine Learning. The model is built with Random Forest Regressor and deployed as an API using FastAPI.
 
-##How to Use This Project
-###Clone the Repository
+## How to Use This Project
+### Clone the Repository
 sh
 CopyEdit
 git clone https://github.com/anjumshaik7/ml-model-houseprice-soulai.git  
 cd ml-model-houseprice-soulai  
-###Install Required Packages
+### Install Required Packages
 sh
 CopyEdit
 pip install -r requirements.txt  
 Run the Jupyter Notebook (.ipynb)
-###Open Google Colab or Jupyter Notebook.
-###Run House_Price_Prediction.ipynb to train and evaluate the model.
-###It will save the trained model as model.pkl.
-###Start FastAPI for Predictions
+### Open Google Colab or Jupyter Notebook.
+### Run House_Price_Prediction.ipynb to train and evaluate the model.
+### It will save the trained model as model.pkl.
+### Start FastAPI for Predictions
 sh
 CopyEdit
 uvicorn app:app --reload  
-###API will be available at: http://127.0.0.1:8000
-###Swagger UI for testing: http://127.0.0.1:8000/docs
+### API will be available at: http://127.0.0.1:8000
+### Swagger UI for testing: http://127.0.0.1:8000/docs
 
-##Make Predictions (Example)
+## Make Predictions (Example)
 Run this in Command Prompt:
 
 sh
@@ -57,22 +57,22 @@ curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -
   "Regionname_Western_Metropolitan": false,
   "Regionname_Western_Victoria": false
 }'
-###Expected Output:
+### Expected Output:
 json
 CopyEdit
 {
   "predicted_price": 850000
 }
 
-##Model Performance
+## Model Performance
 Metric	Score
 R² Score	(update with actual value)
 MAE	(update with actual value)
 MSE	(update with actual value)
 
-###Contributor: Anjum Shaik 
+### Contributor: Anjum Shaik 
 
-###Random Forest MAE: 165811.84223157307
-###Random Forest R2 Score: 0.8091180324689073
-###RMSE : 275356.06401834794
+### Random Forest MAE: 165811.84223157307
+### Random Forest R2 Score: 0.8091180324689073
+### RMSE : 275356.06401834794
 
