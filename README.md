@@ -38,7 +38,7 @@ uvicorn app:app --reload
 API will be available at: http://127.0.0.1:8000 <br>
 Swagger UI for testing: http://127.0.0.1:8000/docs
 
-## Make Predictions (Example)
+### Make Predictions (Example)
 Run this in Command Prompt:
 
 ```sh
