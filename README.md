@@ -9,7 +9,7 @@ This project predicts house prices in Melbourne using Machine Learning. The mode
 ### Clone the Repository
 
 ```sh
-CopyEdit
+
 git clone https://github.com/anjumshaik7/ml-model-houseprice-soulai.git
 ```
 
@@ -19,7 +19,7 @@ cd ml-model-houseprice-soulai
 
 ### Install Required Packages
 ```sh
-CopyEdit
+
 pip install -r requirements.txt
 ```
 
@@ -31,7 +31,7 @@ It will save the trained model as model.pkl.
 Start FastAPI for Predictions
 
 ```sh
-CopyEdit
+
 uvicorn app:app --reload
 ```
 
@@ -42,7 +42,7 @@ Swagger UI for testing: http://127.0.0.1:8000/docs
 Run this in Command Prompt:
 
 ```sh
-CopyEdit
+
 curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d '
 ```
 
