@@ -18,10 +18,10 @@ pip install -r requirements.txt
 
 Run the Jupyter Notebook (.ipynb)
 
- Open Google Colab or Jupyter Notebook.
- Run House_Price_Prediction.ipynb to train and evaluate the model.
- It will save the trained model as model.pkl.
- Start FastAPI for Predictions
+Open Google Colab or Jupyter Notebook.
+Run House_Price_Prediction.ipynb to train and evaluate the model.
+It will save the trained model as model.pkl.
+Start FastAPI for Predictions
 
 CopyEdit
 uvicorn app:app --reload
@@ -30,8 +30,8 @@ uvicorn app:app --reload
 ### Swagger UI for testing: http://127.0.0.1:8000/docs
 
 ## Make Predictions (Example)
-Run this in Command Prompt:
 
+Run this in Command Prompt:
 CopyEdit
 curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d '{
   "Rooms": 3,
@@ -61,8 +61,8 @@ curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -
 }'
 
 ### Expected Output:
-json
-CopyEdit
+
+
 {
   "predicted_price": 850000
 }
