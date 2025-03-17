@@ -46,9 +46,7 @@ Run this in Command Prompt:
 curl -X POST http://127.0.0.1:8000/predict <br>
  -H "Content-Type: application/json" <br>
 -d '
-```
 
-```json
 {
   "Rooms": 3,
   "Distance": 10.5,
@@ -74,7 +72,7 @@ curl -X POST http://127.0.0.1:8000/predict <br>
   "Regionname_Southern_Metropolitan": false,
   "Regionname_Western_Metropolitan": false,
   "Regionname_Western_Victoria": false
-}'
+}
 ```
 
 ### Expected Output:
