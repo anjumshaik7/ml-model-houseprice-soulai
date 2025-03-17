@@ -79,3 +79,16 @@ MSE	(update with actual value)
 ### Random Forest R2 Score: 0.8091180324689073
 ### RMSE : 275356.06401834794
 
+## Below are the images demonstrating the project execution using FastAPI 
+
+
+![Alt Text](https://raw.githubusercontent.com/anjumshaik7/ml-model-houseprice-soulai/refs/heads/main/image.png))
+
+![Alt Text](https://github.com/anjumshaik7/ml-model-houseprice-soulai/blob/main/image%20(1).png))
+
+![Alt Text](https://github.com/anjumshaik7/ml-model-houseprice-soulai/blob/main/image%20(2).png)
+
+
+
+
+
