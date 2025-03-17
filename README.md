@@ -39,10 +39,15 @@ API will be available at: http://127.0.0.1:8000
 Swagger UI for testing: http://127.0.0.1:8000/docs
 
 ## Make Predictions (Example)
-```json
 Run this in Command Prompt:
+
+```sh
 CopyEdit
-curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d '{
+curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d '
+```
+
+```json
+{
   "Rooms": 3,
   "Distance": 10.5,
   "Postcode": 3000,
