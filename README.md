@@ -7,11 +7,9 @@ This project predicts house prices in Melbourne using Machine Learning. The mode
 
 ## How to Use This Project
 ### Clone the Repository
-```sh
 CopyEdit
-git clone https://github.com/anjumshaik7/ml-model-houseprice-soulai.git ```
+git clone https://github.com/anjumshaik7/ml-model-houseprice-soulai.git 
 
-```sh
 cd ml-model-houseprice-soulai
 
 ### Install Required Packages
