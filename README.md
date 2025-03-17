@@ -18,10 +18,10 @@ pip install -r requirements.txt
 
 Run the Jupyter Notebook (.ipynb)
 
-### Open Google Colab or Jupyter Notebook.
-### Run House_Price_Prediction.ipynb to train and evaluate the model.
-### It will save the trained model as model.pkl.
-### Start FastAPI for Predictions
+ Open Google Colab or Jupyter Notebook.
+ Run House_Price_Prediction.ipynb to train and evaluate the model.
+ It will save the trained model as model.pkl.
+ Start FastAPI for Predictions
 
 CopyEdit
 uvicorn app:app --reload
