@@ -1,4 +1,4 @@
-# ml-model-houseprice-soulai
+# ML_model_houseprice_soulai
 This repository delivers an end-to-end ML solution for predicting house prices using the Melbourne City Housing dataset. It covers data processing, feature engineering, hyperparameter tuning, and model training, with deployment via FastAPI for real-time predictions.
 
 ## Melbourne House Price Prediction
@@ -13,7 +13,9 @@ CopyEdit
 git clone https://github.com/anjumshaik7/ml-model-houseprice-soulai.git
 ```
 
+```sh
 cd ml-model-houseprice-soulai
+```
 
 ### Install Required Packages
 ```sh
@@ -21,21 +23,23 @@ CopyEdit
 pip install -r requirements.txt
 ```
 
-Run the Jupyter Notebook (.ipynb)
+### Run a file (.ipynb)
 
 Open Google Colab or Jupyter Notebook.
 Run House_Price_Prediction.ipynb to train and evaluate the model.
 It will save the trained model as model.pkl.
 Start FastAPI for Predictions
 
+```sh
 CopyEdit
 uvicorn app:app --reload
+```
 
-### API will be available at: http://127.0.0.1:8000
-### Swagger UI for testing: http://127.0.0.1:8000/docs
+API will be available at: http://127.0.0.1:8000
+Swagger UI for testing: http://127.0.0.1:8000/docs
 
 ## Make Predictions (Example)
-
+```json
 Run this in Command Prompt:
 CopyEdit
 curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d '{
@@ -64,13 +68,15 @@ curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -
   "Regionname_Western_Metropolitan": false,
   "Regionname_Western_Victoria": false
 }'
+```
 
 ### Expected Output:
 
-
+```json
 {
   "predicted_price": 850000
 }
+```
 
 ## Model Performance
 ### Metric	Score
