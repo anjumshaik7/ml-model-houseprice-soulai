@@ -74,6 +74,9 @@ Random Forest MAE: 165811.84223157307 <br>
 Random Forest R2 Score: 0.8091180324689073<br>
 RMSE : 275356.06401834794
 
+
+##NOTE: For detailed summary of model building. Kindly check  "House_Price_Prediction.ipynb" file.
+
 ## Below are the images demonstrating the project execution using FastAPI 
 
 
