@@ -10,26 +10,32 @@ This project predicts house prices in Melbourne using Machine Learning. The mode
 ```sh
 CopyEdit
 git clone https://github.com/anjumshaik7/ml-model-houseprice-soulai.git```
-cd ml-model-houseprice-soulai  
+
+cd ml-model-houseprice-soulai
+
 ### Install Required Packages
-sh
+```sh
 CopyEdit
-pip install -r requirements.txt  
+pip install -r requirements.txt
+
 Run the Jupyter Notebook (.ipynb)
+
 ### Open Google Colab or Jupyter Notebook.
 ### Run House_Price_Prediction.ipynb to train and evaluate the model.
 ### It will save the trained model as model.pkl.
 ### Start FastAPI for Predictions
-sh
+
+```sh
 CopyEdit
-uvicorn app:app --reload  
+uvicorn app:app --reload
+
 ### API will be available at: http://127.0.0.1:8000
 ### Swagger UI for testing: http://127.0.0.1:8000/docs
 
 ## Make Predictions (Example)
 Run this in Command Prompt:
 
-sh
+```sh
 CopyEdit
 curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d '{
   "Rooms": 3,
@@ -57,6 +63,7 @@ curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -
   "Regionname_Western_Metropolitan": false,
   "Regionname_Western_Victoria": false
 }'
+
 ### Expected Output:
 json
 CopyEdit
