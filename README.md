@@ -35,7 +35,7 @@ Start FastAPI for Predictions
 uvicorn app:app --reload
 ```
 
-API will be available at: http://127.0.0.1:8000
+API will be available at: http://127.0.0.1:8000 <br>
 Swagger UI for testing: http://127.0.0.1:8000/docs
 
 ## Make Predictions (Example)
@@ -43,7 +43,9 @@ Run this in Command Prompt:
 
 ```sh
 
-curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d '
+curl -X POST http://127.0.0.1:8000/predict <br>
+ -H "Content-Type: application/json" <br>
+-d '
 ```
 
 ```json
